@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: #020617;
+    width: 700px;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+}
+
+.app h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
+
+/* Input */
+.input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.input-box button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Lists */
+.lists {
+    display: flex;
+    gap: 20px;
+}
+
+.list {
+    flex: 1;
+    background: #0f172a;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.list h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Task */
+li {
+    background: #1e293b;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.task-text {
+    font-size: 15px;
+}
+
+.time {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-top: 3px;
+}
+
+.actions {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.actions button {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.complete {
+    background: #22c55e;
+}
+
+.edit {
+    background: #facc15;
+}
+
+.delete {
+    background: #ef4444;
+}
